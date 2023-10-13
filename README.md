@@ -28,6 +28,19 @@ arr.findIndex(func) // returns the index of the element for which f returns true
 arr.find(func) // returns value of the element for which f returns true
 ~~~
 
+### find
+~~~
+[4, 5, 1, 8, 2, 0].find(x => x > 3); // 4
+~~~
+```
+[4, 5, 1, 8, 2, 0].findIndex(x => x > 3); // 0
+```
+
+## Methods of strings
+
+~~~
+"SoloLearn".includes("loLe"); // true
+~~~
 ## Loops
 
 ### Loops for
